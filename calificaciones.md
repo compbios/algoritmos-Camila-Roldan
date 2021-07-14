@@ -2,32 +2,32 @@
 
 Algoritmo Cálculo_Calificaciones
 
-> Escribir "El promedio ponderado de la calificación de un alumno es: Parcial 1 = 25%, Parcial 2 = 25%, Participación = 20%, Examen final = 30%"
+  Escribir "El promedio ponderado de la calificación de un alumno es: Parcial 1 = 25%, Parcial 2 = 25%, Participación = 20%, Examen final = 30%"
 
-> Escribir "Digite la calificación del primer parcial"
+  Escribir "Digite la calificación del primer parcial"
 
-> Leer A
+  Leer A
 
-> B <- (A * 0.25)
+  B <- (A * 0.25)
 
-> Escribir "Digite la calificación del segundo parcial" 
+  Escribir "Digite la calificación del segundo parcial" 
 
-> Leer C
+  Leer C
 
-> D <- (C * 0.25)
+  D <- (C * 0.25)
 
-> Escribir "Digite la calificación del examen final"
+  Escribir "Digite la calificación del examen final"
 
-> Leer E
+  Leer E
 
-> F <- (E*0.3)
+  F <- (E*0.3)
 
->  Escribir "Digite la calificación de la nota de participación"
+  Escribir "Digite la calificación de la nota de participación"
 
-> Leer G
+  Leer G
 
-> H <- (G * 0.2)
+  H <- (G * 0.2)
 
-> Escribir "La calificación ponderada del estudiante es:" B + D + F + H
+  Escribir "La calificación ponderada del estudiante es:" B + D + F + H
 
 FinAlgoritmo
