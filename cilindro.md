@@ -85,6 +85,26 @@ Algoritmo Área_Superficie_Cilindro
 	
 FinAlgoritmo
 
+### Algoritmo cálculo área de un cilindro 
+
+Algoritmo Volumen_cilindro
+	
+	Escribir "Para calcular área de un cilindro"
+	
+	P <- 3.1416 
+	
+	Escribir sinsaltar "Por favor digite el radio del cilindro"
+	
+	Leer R
+	
+	Escribir Sinsaltar "Por favor digite la altura del cilindro"
+	
+	Leer H 
+	
+	Escribir "El área de su cilindro es:" ((2*P) * R *  H) + ((2*P) * (R*R)) 
+
+FinAlgoritmo
+
 ## Algortimo cálculo calificaciones 
 
 Algoritmo Cálculo_Calificaciones
