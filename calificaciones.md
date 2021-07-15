@@ -31,3 +31,37 @@ Algoritmo Cálculo_Calificaciones
   Escribir "La calificación ponderada del estudiante es:" B + D + F + H
 
 FinAlgoritmo
+
+## Algoritmo #2
+
+Algoritmo Calificaciones
+	
+  Escribir "Para calcula la calificación del estudiante, por favor"
+	
+  Escribir Sin Saltar "Digite la calificación del primer parcial"
+	
+  Leer calificaciónparcial1
+	
+  Porcentajecalificaciónparcial1 <- (calificaciónparcial1 * 0.25)
+	
+  Escribir Sin Saltar "Digite la calificación del segundo parcial"
+	
+  Leer calificaciónparcial2
+	
+  Porcentajecalificaciónparcial2 <- (calificaciónparcial2 * 0.25)
+	
+  Escribir Sin Saltar "Digite la calificación del examen final"
+	
+  Leer calificaciónexamenfinal 
+	
+  Porcentajecalifiicaciónexamenfinal <- (calificaciónexamenfinal * 0.3)
+	
+  Escribir Sin Saltar "Digite la calificación participación"
+	
+  Leer calificaciónparticipación
+	
+  Porcentajecalifiicaciónparticipación <- (calificaciónparticipación * 0.2)
+	
+  Escribir "La calificación ponderada del estudiante corresponde a:" (Porcentajecalificaciónparcial1 + Porcentajecalificaciónparcial2 + Porcentajecalifiicaciónexamenfinal + Porcentajecalifiicaciónparticipación)
+
+FinAlgoritmo
