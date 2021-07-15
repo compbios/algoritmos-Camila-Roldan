@@ -32,6 +32,27 @@ Algoritmo Volumen_Cilindro
 	
 FinAlgoritmo
 
+### Algoritmo para cáculo del volumen del cilindro #2
+
+Algoritmo Volumen_cilindro
+	
+	Escribir "Para calcular el volumen de un cilindro"
+	
+	P <- 3.1416
+	
+	Escribir sinsaltar "Digite el radio del cilindro"
+	
+	Leer R
+	
+	Escribir sinsaltar "Digite la altura del cilindro"
+	
+	Leer H 
+	
+	R2 <- (R*R)
+	
+	Escribir "El volumen del cilindro es:" H * R2 * P 
+FinAlgoritmo
+
 ### Algoritmo para cálculo del área de un cilindro 
 
 Algoritmo Área_Superficie_Cilindro
